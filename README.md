@@ -15,7 +15,7 @@ A Card is a struct which has two members: number and suit.
 
 Number can go from 0 to 12 (2,3,4,5,6,7,8,9,10,J,Q,K,A are 13 cards)
 
-Suit can go from 0 to 3 (Clubs, Spades, Diamonds, Herts are 4 suits)
+Suit can go from 0 to 3 (Clubs, Spades, Diamonds, Hearts are 4 suits)
 
 ### Deck
 A Deck is a struct which contains a list of cards and a draw pointer called *last_index*, which contains the address of the following Card which is legal
